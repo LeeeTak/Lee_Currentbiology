@@ -1,0 +1,35 @@
+{
+    "chip.title" : "UBI_LSH",
+    "chip.description" : "UBI_LSH_ChIPseq",
+
+    "chip.pipeline_type" : "tf",
+    "chip.aligner" : "bowtie2",
+    "chip.align_only" : false,
+    "chip.true_rep_only" : false,
+
+    "chip.genome_tsv" : "/netscratch/common/Saurabh/stretchApps/Pipelines/encode-chip-seq-pipeline2/v2.1.2/Genomes/mediTruv1.9inra/mediTruv1.9inra.tsv",
+
+    "chip.paired_end" : true,
+    "chip.ctl_paired_end" : true,
+    "chip.peak_caller":"macs2",
+    "chip.always_use_pooled_ctl" : true,
+
+    "chip.fastqs_rep1_R1" : ["/netscratch/dep_psl/grp_rgo/taklee/chipseq/fastqs/R1_1.fq.gz"],
+    "chip.fastqs_rep1_R2" : ["/netscratch/dep_psl/grp_rgo/taklee/chipseq/fastqs/R1_2.fq.gz"],
+    "chip.fastqs_rep2_R1" : ["/netscratch/dep_psl/grp_rgo/taklee/chipseq/fastqs/R2_1.fq.gz"],
+    "chip.fastqs_rep2_R2" : ["/netscratch/dep_psl/grp_rgo/taklee/chipseq/fastqs/R2_2.fq.gz"],
+    "chip.fastqs_rep3_R1" : ["/netscratch/dep_psl/grp_rgo/taklee/chipseq/fastqs/R3_1.fq.gz"],
+    "chip.fastqs_rep3_R2" : ["/netscratch/dep_psl/grp_rgo/taklee/chipseq/fastqs/R3_2.fq.gz"],
+    "chip.fastqs_rep4_R1" : ["/netscratch/dep_psl/grp_rgo/taklee/chipseq/fastqs/R4_1.fq.gz"],
+    "chip.fastqs_rep4_R2" : ["/netscratch/dep_psl/grp_rgo/taklee/chipseq/fastqs/R4_2.fq.gz"],
+
+    "chip.ctl_fastqs_rep1_R1" : [ "/netscratch/dep_psl/grp_rgo/taklee/chipseq/fastqs/R5_1.fq.gz" ],
+    "chip.ctl_fastqs_rep1_R2" : [ "/netscratch/dep_psl/grp_rgo/taklee/chipseq/fastqs/R5_2.fq.gz" ],
+    "chip.ctl_fastqs_rep2_R1" : [ "/netscratch/dep_psl/grp_rgo/taklee/chipseq/fastqs/R6_1.fq.gz" ],
+    "chip.ctl_fastqs_rep2_R2" : [ "/netscratch/dep_psl/grp_rgo/taklee/chipseq/fastqs/R6_2.fq.gz" ],
+    "chip.ctl_fastqs_rep3_R1" : [ "/netscratch/dep_psl/grp_rgo/taklee/chipseq/fastqs/R7_1.fq.gz" ],
+    "chip.ctl_fastqs_rep3_R2" : [ "/netscratch/dep_psl/grp_rgo/taklee/chipseq/fastqs/R7_2.fq.gz" ],
+    "chip.ctl_fastqs_rep4_R1" : [ "/netscratch/dep_psl/grp_rgo/taklee/chipseq/fastqs/R8_1.fq.gz" ],
+    "chip.ctl_fastqs_rep4_R2" : [ "/netscratch/dep_psl/grp_rgo/taklee/chipseq/fastqs/R8_2.fq.gz" ]
+}
+
